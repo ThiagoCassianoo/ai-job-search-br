@@ -14,44 +14,56 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+> Montados só com fatos do CV. Trechos marcados **[completar]** precisam de detalhe real do Thiago antes de usar em entrevista: nunca inventar.
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. Auditoria financeira na SERVITEC (análise, rigor, resultado financeiro)
+**S:** Na SERVITEC Consultoria havia ativos parados sem controle. **[completar: que ativos, como o problema apareceu]**
+**T:** Fazer auditoria financeira para identificar e recuperar esses ativos.
+**A:** Conduziu auditoria financeira rigorosa. **[completar: método, ferramentas (Excel/SQL?), quanto tempo levou]**
+**R:** Recuperou mais de R$ 50 mil em ativos parados.
+**Use for:** "Conte um resultado concreto que você entregou", "Como você usa dados para tomar decisão?"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Processo padrão na SERVITEC (melhoria de processo, liderança)
+**S:** A equipe trabalhava sem processo padrão, o que gerava inconsistências.
+**T:** Identificar a causa e padronizar o trabalho.
+**A:** Estruturou um fluxo comum e capacitou a equipe nele. **[completar: como desenhou o fluxo, resistências]**
+**R:** Reduziu as inconsistências e a equipe passou a operar no mesmo fluxo. **[completar: métrica, se houver]**
+**Use for:** "Conte uma melhoria de processo que você liderou", "Como você lida com desorganização?"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Plataforma de EAD (requisitos, liderança técnica)
+**S:** A SERVITEC precisava conceber uma plataforma de EAD.
+**T:** Liderar a concepção técnica e o levantamento de requisitos.
+**A:** Levantou os requisitos, definiu a concepção técnica e dividiu as tarefas entre a equipe. **[completar: stakeholders, decisões de arquitetura]**
+**R:** **[completar: a plataforma foi entregue? quantos usuários?]**
+**Use for:** "Conte sobre um projeto que você liderou", "Como você levanta requisitos?"
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### 4. Sistemas com IA em produção (Dados & IA, arquitetura)
+**S:** Uma empresa real de arquitetura precisava de um sistema de gestão de projetos; paralelamente, o candidato construiu uma plataforma de análise de CV para ATS.
+**T:** Entregar sistemas funcionando em produção.
+**A:** Especificou requisitos, definiu a arquitetura (Clean Architecture, SOLID), gerou o código com apoio de IA, validou cada entrega testando a aplicação e publicou no Google Cloud Run.
+**R:** Dois sistemas publicados no Google Cloud Run, um deles em uso por empresa real. **[completar: usuários, tempo de entrega]**
+**Use for:** "Como você usa IA no seu trabalho?", "Conte um projeto técnico de ponta a ponta"
+
+### 5. Painéis de risco em Power BI (dados para decisão)
+**S:** Na Matricular / Quant / Rede Montagem, o acompanhamento de risco precisava apoiar a meta de zero acidentes.
+**T:** Dar visibilidade de risco para a operação e a diretoria.
+**A:** Construiu ferramentas de acompanhamento em Excel e Power BI e conduziu reuniões com diretorias, traduzindo os dados em decisões operacionais.
+**R:** Contribuiu para a meta de zero acidentes. **[completar: a meta foi atingida? período?]**
+**Use for:** "Conte sobre um dashboard que gerou decisão", "Como você comunica dado técnico para não-técnicos?"
 
 ## Common Tough Questions
 
-### "Why did you leave [previous company]?"
-> [PREPARE YOUR ANSWER - be honest, forward-looking, no negativity about former employer]
+### "Por que você está saindo da área de segurança do trabalho?"
+> Resposta voltada para frente: a formação (Ciência de Dados, pós em Eng. de Software e IA) e os projetos em produção já apontam para dados; em SST o candidato já usava dados (Power BI) para decisão, então a transição é continuidade, não ruptura. Não falar mal de empregador anterior.
 
-### "You don't have [specific skill/experience]."
-> [PREPARE YOUR ANSWER - acknowledge the gap, bridge to adjacent experience, show willingness to learn]
+### "Você não tem experiência formal como Engenheiro de Dados."
+> Reconhecer o gap; fazer ponte com os sistemas publicados no Cloud Run, SQL/Python/Power BI e 4 anos como Analista de Sistemas; mostrar o plano de estudo (ver /upskill).
 
-### "Where do you see yourself in 5 years?"
-> [PREPARE YOUR ANSWER - show ambition aligned with the role's growth path]
+### "Onde você se vê em 5 anos?"
+> Atuando em engenharia de dados e IA, tomando decisões de arquitetura de soluções.
 
-### "What's your biggest weakness?"
-> [PREPARE YOUR ANSWER - genuine weakness with concrete mitigation strategy]
+### "Qual é sua maior fraqueza?"
+> Impaciência com processos lentos e repetitivos; mitigação: transformar a impaciência em melhoria de processo (Six Sigma) e separar pressa saudável de decisão que precisa de mais dado.
 
 ### "Why this company specifically?"
 > Customize per company. Must reference: specific projects, company values, market position, or team structure. Never give a generic answer.

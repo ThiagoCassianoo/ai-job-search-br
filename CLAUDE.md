@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Thiago Cassiano Gonçalves
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Thiago Cassiano Gonçalves, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,76 +16,83 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Thiago Cassiano Gonçalves
+- **Location:** Serra/ES, Brazil (remoto no Brasil inteiro, ou presencial/híbrido na Grande Vitória: Serra, Vitória, Vila Velha, Cariacica; não pretende mudar de cidade)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
-  <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
-  working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
-  undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
-  lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
-  04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+  | Portuguese | Native |
+  | English | Basic (lê documentação técnica; não conduz entrevista em inglês) |
+- **CV language:** Portuguese
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Empregado - Auxiliar Técnico, Processos e Gerenciamento de Risco na Vitória Ambiental S/A (desde jun/2026); em transição para Dados & IA
+- **LinkedIn headline:** "Análise de Sistemas, Dados e Gestão de Processos"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Graduação em Ciência de Dados** (concluída) - UFMS
+- **Pós-graduação em Engenharia de Software** (concluída) - Faculdade Monte Líbano
+- **Pós-graduação em Inteligência Artificial** (concluída) - Faculdade Monte Líbano
+- **Gestão de Negócios e Inovação** (concluída) - Startup Academy
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Auxiliar Técnico, Processos e Gerenciamento de Risco** (Jun/2026 - Atual) - **Vitória Ambiental S/A**
+  - Estrutura, do zero, a governança de segurança do trabalho: documentação, inspeção e planos de ação com controle de prazos
+  - Cria e conduz treinamentos técnicos, traduzindo normas complexas em linguagem acessível para o operador
+- **Técnico de Segurança do Trabalho** (2024 - 2025) - **Matricular / Quant / Rede Montagem**
+  - Construiu ferramentas de acompanhamento de risco em Excel e Power BI, contribuindo para a meta de zero acidentes
+  - Conduziu reuniões estratégicas com diretorias, traduzindo dados técnicos em decisões operacionais claras
+- **Analista de Sistemas** (2020 - 2024) - **SERVITEC Consultoria**
+  - Liderou a concepção técnica e o levantamento de requisitos de uma plataforma de EAD e dividiu tarefas entre a equipe
+  - Identificou falta de processo padrão e estruturou fluxo comum, reduzindo inconsistências e capacitando a equipe
+  - Recuperou mais de R$ 50 mil em ativos parados por meio de auditoria financeira rigorosa
+- **Voluntário - Analista de Processos** - **PMI Espírito Santo**
+
+### Independent Projects (desenvolvimento com IA)
+- **Sistema de gestão de projetos para arquitetura** - sistema web em produção para empresa real (Google Cloud Run)
+- **Plataforma de IA para currículos** - avalia compatibilidade com ATS; publicada no Google Cloud Run
+- **Agente de IA para Trello** - Gemini + MCP, com Python, Streamlit, SQLite e Docker
+- **Metodologia:** especifica requisitos, define a arquitetura (Clean Architecture, SOLID) e valida cada entrega testando a aplicação; código gerado com apoio de IA
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Python, SQL, Power BI, levantamento de requisitos, estruturação de processos
+- **Secondary:** Streamlit, Docker, Google Cloud Run, SQLite, Excel avançado, agentes de IA (Gemini, MCP), Microsoft Power Platform
+- **Domain:** Análise de sistemas; gestão de processos (Six Sigma Green Belt); segurança do trabalho e gerenciamento de risco industrial; auditoria financeira
+- **Software:** Power BI, Excel, Docker, Google Cloud Run, Trello
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Google Data Analytics** - Coursera
+- **SQL Completo** - Udemy
+- **Google AI Professional** - Google
+- **Microsoft Power Platform** - Microsoft
+- **Six Sigma Green Belt**
+- **Excel Avançado e Power BI** - Conquer
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- Nenhuma.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- Nenhum registrado.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **ENTJ-A "Comandante" (16Personalities)** - mente estratégica, visão de longo prazo, ownership forte, comunicação direta; mede sucesso por resultado concreto
+- **Planejador (86%) e Analítico (68%)** - precisa enxergar a arquitetura e o resultado final antes de executar
+- **Strengths:** raciocínio fluido em problema novo, decisão sob pressão, traduzir dado técnico em decisão operacional, estruturar processo onde não existe
+- **Growth areas:** impaciência com processos lentos e repetitivos; tendência a assumir controle de tudo para ganhar eficiência
+- **Thrives in:** ambiente com autonomia, regras claras, progresso visível e espaço para construir (pipelines, automações, arquitetura)
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- "Prefiro construir o pipeline do que apenas consumir o relatório." - construir pipelines de dados e automações com IA
+- Definir arquitetura de soluções e validar entregas que vão para produção
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Tecnologia / produtos digitais (vagas de Dados e IA, remoto BR)
+- Indústria, energia, saneamento e meio ambiente na Grande Vitória (dados + operação + SSMA)
+- Consultorias de dados e BI
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Mudança de cidade (só remoto BR ou Grande Vitória)
+- Senioridade sênior/especialista ou estágio/trainee (aceita Júnior e Pleno)
+- CLT e PJ são aceitos; PJ apenas é sinalizado para conferir se a remuneração compensa
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

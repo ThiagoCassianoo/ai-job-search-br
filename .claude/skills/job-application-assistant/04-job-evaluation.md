@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Python, SQL, Power BI, levantamento de requisitos, estruturação/gestão de processos
+**Moderate match areas:** Streamlit, Docker, Google Cloud Run, SQLite, Excel avançado, agentes de IA (Gemini + MCP), Microsoft Power Platform, Six Sigma
+**Weak match areas:** Spark, Airflow, dbt, data warehouses em nuvem (BigQuery/Snowflake/Redshift), AWS/Azure, Java/.NET, inglês fluente *[inferido pela ausência no CV - revisar]*
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Análise de sistemas e levantamento de requisitos (SERVITEC, 4 anos); gestão de processos e governança; BI de risco em segurança do trabalho / indústria
+**Moderate:** Análise de dados e BI (Power BI, Excel); auditoria financeira; treinamentos técnicos e comunicação com diretoria
+**Entry-level:** Engenharia de dados (pipelines em produção), ML engineering, desenvolvimento de software como dev puro - experiência vem de projetos independentes com IA, não de cargo formal
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -107,19 +107,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Transição para Engenharia de Dados & Desenvolvimento com IA
+- Construir pipelines e automações, não apenas consumir relatórios
+- Crescer para decisões de arquitetura de soluções de dados/IA
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: construir pipelines e automações, definir arquitetura, resolver problemas novos, estruturar processos do zero, traduzir dados em decisão
+- Tasks that drain: rotina repetitiva sem melhoria, processos lentos e parados, cobrança sem sentido, manutenção sem evolução
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Empregado atualmente (Vitória Ambiental) - pode ser seletivo; pretensão salarial definida caso a caso (não registrada no repo)
+- **Flexibility**: Remoto no Brasil ou presencial/híbrido na Grande Vitória; sem mudança de cidade. Senioridade Júnior ou Pleno. CLT ou PJ (PJ: sinalizar para conferir remuneração)
+- **Professional development**: Experiência formal em dados/IA; stack de engenharia de dados moderna
 
 ### 6. Salary Benchmark (Optional)
 

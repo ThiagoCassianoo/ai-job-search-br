@@ -12,69 +12,76 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 
 ## Search Sites
 
-Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+Primary:
+- **linkedin.com/jobs** - via `linkedin-search` CLI (location: "Brazil" com filtro remoto; e "Serra, Espírito Santo, Brazil" / "Vitória, Espírito Santo, Brazil" para presencial/híbrido)
+- **freehire.me** - via `freehire-search` CLI (agregador; usar para remoto Brasil)
+- **gupy.io** - maior ATS do Brasil; ainda sem CLI (criar depois com `/add-portal`). Até lá, só fallback `site:`
+- **vagas.com.br** / **br.indeed.com** - fallback `site:` (opcional)
 
 Secondary (company career pages via Google):
 - Direct Google searches with `site:` filters for known target companies
 
 ## Query Categories
 
-Queries are grouped by priority. Write **each category in every language from your Languages table** (see Language scope above). Combine each query with your location terms (e.g. your city, region, or metro area) where the site supports it.
+Queries em **português** (idioma principal). Títulos em inglês aparecem porque muitas vagas brasileiras de dados usam o título em inglês ("Data Analyst", "Data Engineer"); o Language Gate filtra as que exigem inglês fluente. Combine com "remoto" ou com a cidade.
 
-**Organize by function, not job title.** The same underlying work carries different titles across companies and markets (a "Data Scientist" role at one employer may be posted as "Insights Analyst" or "Data Consultant" at another). Name each priority category after the function it covers, and list several plausible job titles as query variants within that category rather than betting an entire priority tier on one exact title string.
+### Priority 1: Dados & IA (construir pipelines, análises e automações com IA)
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
-
-These match your strongest and most desired career direction.
+Direção principal de carreira. Senioridade: Júnior ou Pleno.
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_2]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_COUNTRY]
+"Analista de Dados" remoto Brasil
+"Engenheiro de Dados" Júnior remoto
+"Data Engineer" Júnior Brasil remoto
+"Analista de BI" OR "Analista de Business Intelligence" remoto
+"Desenvolvedor de IA" OR "Engenheiro de IA" Júnior remoto
+"Analista de Automação" Python remoto
+site:linkedin.com/jobs "Analista de Dados" Vitória Espírito Santo
+site:gupy.io "Analista de Dados" remoto
+site:gupy.io "Engenheiro de Dados" Júnior
 ```
 
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
+### Priority 2: Dados em Indústria / SSMA (operação industrial + dados)
 
-These match your domain expertise.
-
-```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
-```
-
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
-
-Adjacent roles you could pivot into.
+Nicho onde a combinação rara (~6 anos em operação industrial + dados) é vantagem.
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
+"Analista de Dados" indústria Espírito Santo
+"Analista de BI" Power BI Serra OR Vitória ES
+"Analista de Riscos" Power BI Espírito Santo
+"Analista de SSMA" Power BI OR dados Vitória ES
+"Analista de Indicadores" Power BI Espírito Santo
+site:gupy.io "Power BI" Vitória ES
 ```
 
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+### Priority 3: Sistemas & Processos (onde há mais experiência formal)
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+"Analista de Sistemas" Pleno remoto
+"Analista de Processos" Vitória OR Serra ES
+"Analista de Requisitos" remoto
+"Analista de Melhoria Contínua" Espírito Santo
+site:gupy.io "Analista de Processos" Vitória
+```
+
+### Priority 4: Rede ampla (Python / Power BI / Automação)
+
+```
+"Python" analista Júnior remoto Brasil
+"Power BI" analista remoto
+"Power Platform" OR "Power Automate" analista remoto
+"Analytics Engineer" Júnior remoto Brasil
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+Remoto no Brasil: **PASS** (desde que não exija mudança).
+
+Presencial/híbrido - definido a partir de Serra/ES *(faixas assumidas; ajuste se quiser)*:
+- **Ideal:** Serra
+- **Aceitável:** Vitória, Vila Velha, Cariacica
+- **Limítrofe:** Viana, Fundão, Guarapari (sinalizar - deslocamento longo)
+- **Longe demais:** qualquer cidade fora da Grande Vitória sem opção remota (exige mudança = deal-breaker)
 
 ## Language Filter
 

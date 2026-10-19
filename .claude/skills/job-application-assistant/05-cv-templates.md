@@ -59,7 +59,7 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Thiago Cassiano Gonçalves - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -69,13 +69,13 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
 \usepackage{import}
 
 % Personal data
-\name{[FIRST_NAME]}{[LAST_NAME]}
+\name{Thiago}{Cassiano Gonçalves}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
-\address{[YOUR_ADDRESS]}{}{}
-\phone[mobile]{[YOUR_PHONE]}
-\email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\address{Serra/ES, Brasil}{}{}
+\phone[mobile]{(27) 99259-0402}
+\email{cassianothiago99@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/thiago-cassiano-132098232}{LinkedIn}, \href{https://github.com/ThiagoCassianoo}{GitHub}}
 
 \begin{document}
 \makecvtitle
@@ -137,11 +137,14 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Dados & IA roles (Analista de Dados, Engenheiro de Dados Jr., Analista de BI, Desenvolvedor de IA/Automação):**
+> Profissional de dados com graduação em Ciência de Dados e pós-graduações em Engenharia de Software e Inteligência Artificial. Desenvolve soluções de ponta a ponta com apoio de IA: especifica requisitos, define a arquitetura (Clean Architecture, SOLID) e valida cada entrega, com aplicações em produção no Google Cloud Run. Experiência em Python, SQL e Power BI, somada a anos traduzindo dados técnicos em decisões operacionais para diretorias.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Sistemas & Processos roles (Analista de Sistemas, Analista de Processos, Analista de Requisitos):**
+> Analista de Sistemas com 4 anos de experiência em levantamento de requisitos, liderança técnica de equipe e estruturação de processos. Liderou a concepção técnica de uma plataforma de EAD, padronizou fluxos de trabalho e recuperou mais de R$ 50 mil em ativos por meio de auditoria financeira. Formação em Ciência de Dados, pós-graduações em Engenharia de Software e IA, e Six Sigma Green Belt.
+
+**For Dados em Indústria / SSMA roles (Analista de Dados/BI em indústria, Analista de Riscos):**
+> Profissional que une operação industrial e dados: experiência em segurança do trabalho e gerenciamento de risco, com ferramentas de acompanhamento em Power BI e Excel que apoiaram a meta de zero acidentes. Estrutura governança do zero (documentação, inspeções, planos de ação com prazos) e traduz dados técnicos em decisões para diretorias. Graduação em Ciência de Dados e pós-graduação em IA.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 
